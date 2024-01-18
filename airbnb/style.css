@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    background-image: url(./background.jpg);
+    background-image: url(./img/background.jpg);
     height: 880px;
     background-size: cover;
 }
