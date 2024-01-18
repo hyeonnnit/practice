@@ -31,15 +31,140 @@ nav {
     top: 10px;
     left: 50px;
     width: 430px;
+    height: 500px;
     background-color: white;
     box-shadow: 5px 5px 5px 0 #8e8e8f;
     border-radius: 5px;
+    padding: 30px;
 }
 table {
     width: 100%;
-    padding: 20px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: smaller;
 }
 table input{
+    margin-top: 10px;
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(172, 172, 172);
+    height: 40px;
+    color: rgb(126, 126, 126);
+}
+table select {
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: 1px solid rgb(172, 172, 172);
+    height: 40px;
+    color: rgb(126, 126, 126);
+}
+.text4 {
+    font-weight: 900;
+    color: #4c4c4d;
+    margin-top: 10px;
+}
+button{
+    color: white;
+    background-color: #FF5A5F;
+    border: 0px;
+    width: 65px;
+    height: 40px;
+    float: right;
+    border-radius: 6px;
+}
+
+.body{
+    width: 880px;
+    margin: 0 auto;
+}
+.info-box {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid #E6E6E6;
+    border-radius: 6px;
+}
+.title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(66, 66, 66);
+    
+}
+.info-img{
+    width: 60px;
+    height: 100%;
+    border-radius: 6px;
+}
+.info-title {
+    align-self: center;
+    font-weight: 900;
+    font-size: smaller;
+}
+.ad-img {
+    width: 880px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.recommend {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+ 
+    grid-column-gap: 10px;
+}
+.recommend-img {
+    width: 165px;
+    height: 85%;
+}
+.title0{
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(66, 66, 66);
+}
+.subtitle {
+    font-size:small;
+}
+.ad-img1{
+    width: 880px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.home-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+.home-img{
+    width: 213px;
+}
+.text1{
+    color: #8f8f8f;
+    font-size: xx-small;
+}
+.text2{
+    font-weight: 600;
+    color: #313131;
+}
+.grade-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: xx-small;
+    justify-content: left;
+    grid-column-gap: 3px;
+    
+}
+.star{
+    color: #277B79;
 }
